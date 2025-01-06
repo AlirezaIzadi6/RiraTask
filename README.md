@@ -1,8 +1,6 @@
 # Coding Task
 This windows console project is my try to show my coding style and ability to create a readable and maintainable structure.
 The program consists of an abstract service to retrieve products data, and an implementation which uses a static list as the data store. I have used console output to show the service functionality.
-## Structure
-* Models: 
 ## Description about LINQ queries
 Here is a brief description about each LINQ query I have used in the repo service:
 ### Query 1: Get products by category
