@@ -21,7 +21,7 @@ namespace RiraTask.Services
 
         public override Product GetHighestPriceProduct()
         {
-            int maxPrice = _productList.Max(p => p.Price);
+            double maxPrice = _productList.Max(p => p.Price);
             return _productList.First(p => p.Price == maxPrice);
         }
 
